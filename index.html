@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hockeys</title>
+    <!-- tailwind and daisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar  -->
+      <nav class="lg:px-28 lg:py-4">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <a class="text-4xl font-semibold"
+              >Hockey<span class="text-[#FF4240]">’</span>s</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="flex space-x-8 px-1 text-lg cursor-pointer">
+              <li><a class="hover:text-red-600">Home</a></li>
+              <li><a class="hover:text-red-600">About</a></li>
+              <li><a class="hover:text-red-600">Pages</a></li>
+              <li><a class="hover:text-red-600">Blog</a></li>
+              <li><a class="hover:text-red-600">Contact</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button class="btn btn-ghost btn-circle mr-4 hidden lg:visible">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-error text-white">Get Ticket</button>
+          </div>
+        </div>
+      </nav>
+      <!-- banner  -->
+      <div class="lg:w-10/12 w-11/12 mt-3 mx-auto relative">
+        <div class="carousel w-full rounded-2xl">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img src="./Images/1.png" class="w-full" />
+            <div
+              class="absolute flex justify-center lg:justify-start space-x-8 transform -translate-y-1/2 left-5 right-5 bottom-0 lg:bottom-10"
+            >
+              <a
+                href="#slide4"
+                class="btn btn-circle btn-neutral text-white text-2xl"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle btn-neutral text-white text-2xl"
+                >❯</a
+              >
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img src="./Images/4.png" class="w-full" />
+            <div
+              class="absolute flex justify-center lg:justify-start space-x-8 transform -translate-y-1/2 left-5 right-5 bottom-0 lg:bottom-10"
+            >
+              <a
+                href="#slide1"
+                class="btn btn-circle btn-neutral text-white text-2xl"
+                >❮</a
+              >
+              <a
+                href="#slide2"
+                class="btn btn-circle btn-neutral text-white text-2xl"
+                >❯</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#131318] mt-5 text-white p-6 rounded-2xl lg:w-1/2 lg:absolute right-10 bottom-10"
+        >
+          <h3 class="text-xl font-semibold space-y-4">
+            Meet all the heroes from the field
+          </h3>
+          <p class="text-base text-gray-300">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+        <!-- details section  -->
+    </main>
+    <footer></footer>
+  </body>
+</html>
